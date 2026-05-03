@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "e-commerce.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/e-commerce.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-commerce.DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "e-commerce.DAL/1.0.0": {
+      "type": "project",
+      "path": "../e-commerce.DAL/e-commerce.DAL.csproj",
+      "msbuildProject": "../e-commerce.DAL/e-commerce.DAL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "e-commerce.DAL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nada\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nada\\RiderProjects\\e-commerce.API\\e-commerce.BLL\\e-commerce.BLL.csproj",
+      "projectName": "e-commerce.BLL",
+      "projectPath": "C:\\Users\\Nada\\RiderProjects\\e-commerce.API\\e-commerce.BLL\\e-commerce.BLL.csproj",
+      "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nada\\RiderProjects\\e-commerce.API\\e-commerce.BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Nada\\RiderProjects\\e-commerce.API\\e-commerce.DAL\\e-commerce.DAL.csproj": {
+              "projectPath": "C:\\Users\\Nada\\RiderProjects\\e-commerce.API\\e-commerce.DAL\\e-commerce.DAL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

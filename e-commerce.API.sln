@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.API", "E-commerce.API\E-commerce.API.csproj", "{7162A830-06EC-40C8-8E76-E30BD0B8DE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-commerce.BLL", "e-commerce.BLL\e-commerce.BLL.csproj", "{278DC8A3-D580-45C8-9598-FAE9EC1606F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-commerce.DAL", "e-commerce.DAL\e-commerce.DAL.csproj", "{6E68C431-B1AB-4B37-8AE2-2770FA0033FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7162A830-06EC-40C8-8E76-E30BD0B8DE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7162A830-06EC-40C8-8E76-E30BD0B8DE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7162A830-06EC-40C8-8E76-E30BD0B8DE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7162A830-06EC-40C8-8E76-E30BD0B8DE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278DC8A3-D580-45C8-9598-FAE9EC1606F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278DC8A3-D580-45C8-9598-FAE9EC1606F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278DC8A3-D580-45C8-9598-FAE9EC1606F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278DC8A3-D580-45C8-9598-FAE9EC1606F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E68C431-B1AB-4B37-8AE2-2770FA0033FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E68C431-B1AB-4B37-8AE2-2770FA0033FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E68C431-B1AB-4B37-8AE2-2770FA0033FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E68C431-B1AB-4B37-8AE2-2770FA0033FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

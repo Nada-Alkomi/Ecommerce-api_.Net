@@ -16,4 +16,10 @@
       <ProjectReference Include="..\e-commerce.BLL\e-commerce.BLL.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="Filters\" />
+      <Folder Include="MiddleWares\" />
+    </ItemGroup>
+
 </Project>

@@ -6,4 +6,6 @@ public interface IAuthService
 {
  
     Task<CommonRespons> RegisterAsync(RegisterDtos dtos);
+
+    Task<CommonRespons> LoginAsync(LoginDtos dtos);
 }

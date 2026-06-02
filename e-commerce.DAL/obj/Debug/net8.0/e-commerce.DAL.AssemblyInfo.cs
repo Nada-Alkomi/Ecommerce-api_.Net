@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("e-commerce.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d5506086f93c30ba1e86a8f5a6936f4792e205")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0ad49612f1c1bdbc7082658be6cc9ce24358d3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("e-commerce.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("e-commerce.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

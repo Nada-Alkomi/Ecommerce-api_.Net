@@ -16,14 +16,6 @@ public class RoleController:ControllerBase
     {
         _roleService = roleService;
     }
-    [HttpPost]
-    public  async Task<IActionResult<CommonRespons>> create(AddRoleDtos dtos)
-    {
-       var respons= await _roleService.AddAsync(dtos.RoleName);
-       if (!respons.IsSuccess)
-       {
-           return BadRequest(respons);
-       }
-       return Ok(respons);
-    }
+    
+   
 }
